@@ -18,7 +18,7 @@ function restar(){
     alert("El campo esta vacio")
  }
 else
-{resultadoTotal.innerHTML= "El resultado es:" + resultadoresta;}
+{resultadoTotal.innerHTML= "El resultado es:" - resultadoresta;}
 }
 function multiplicar(){
     let valor1=document.getElementById("dato1").value;
@@ -29,7 +29,7 @@ function multiplicar(){
     alert("El campo esta vacio")
  }
 else
-{resultadoTotal.innerHTML= "El resultado es:" + resultadomultiplicacion}
+{resultadoTotal.innerHTML= "El resultado es:" * resultadomultiplicacion}
 }
 function dividir(){
     let valor1=document.getElementById("dato1").value;
@@ -40,5 +40,5 @@ function dividir(){
     alert("El campo esta vacio")
  }
 else
-{resultadoTotal.innerHTML= "El resultado es:" + resultadodivision;}
+{resultadoTotal.innerHTML= "El resultado es:" / resultadodivision;}
 }
